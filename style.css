@@ -5,14 +5,15 @@ body{
 
 header{
 
-    background-image: url(R.jpg);
+    background-image: url(image/R.jpg);
     background-size: cover;
 }
 
 body{
-    background-image: url(R.jpg);
+    background-image: url(image/R.jpg);
     background-size: cover;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 .navbar{
@@ -60,6 +61,11 @@ h1{
     color: white;
 }
 
+h3{
+    color: white;
+    text-indent: 20px;
+}
+
 .lien{
     color:rgb(170, 170, 170);
 }
@@ -97,4 +103,71 @@ ul:hover li a:not(:hover){
     color: white;
     opacity: 0.3;
     filter: blur(1px);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cvtxtright{    
+    float: left;
+    margin-left: 100px;
+}
+
+.cvtxtdown{    
+    float:initial;
+    margin-bottom: 75px;
+    margin-left: 847px;
+}
+  
+.image-container {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+  
+.imgcote{
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.image-wrapper2 {
+    position: relative;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+  
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+  
+.image-wrapper:hover .overlay {
+    opacity: 1;
+}
+
+.image-wrapper2:hover .overlay {
+    opacity: 1;
+}
+  
+.overlay p {
+    text-align: center;
+    margin: 0;
 }
