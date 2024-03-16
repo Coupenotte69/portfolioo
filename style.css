@@ -54,6 +54,7 @@ body{
 
 p{
     color: white;
+    text-align: justify;
 }
 
 h1{
@@ -174,4 +175,19 @@ ul:hover li a:not(:hover){
 .imgsite2 {
     height: 100%;
     width: 100%;
+}
+
+.pui{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 400%;
+    text-align: center;
+}
+
+.rien{
+    color: white;
+}
+
+.imgmood{
+    height: 50%;
+    width: 50%;
 }
