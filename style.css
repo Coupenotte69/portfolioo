@@ -14,7 +14,6 @@ body{
     margin-left: 100px;
     margin-right: 100px;
 }
-
 .navbar{
     padding: 50px;
     display: flex;
@@ -196,4 +195,3 @@ ul:hover li a:not(:hover){
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
-
