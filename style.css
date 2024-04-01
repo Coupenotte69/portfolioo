@@ -127,17 +127,17 @@ ul:hover li a:not(:hover){
     justify-content:space-between;
     margin-bottom: 20px;
 }
-  
-.imgcote{
-    width: 80%;
-    max-width: 100%;
-    height: auto;
-}
+
 
 .image-wrapper {
     position: relative;
-    text-align: center;
+    height:max-content;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
+
 
 .image-wrapper2 {
     position: relative;
@@ -191,3 +191,9 @@ ul:hover li a:not(:hover){
     height: 50%;
     width: 50%;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
