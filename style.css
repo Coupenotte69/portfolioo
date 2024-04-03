@@ -199,3 +199,9 @@ ul:hover li a:not(:hover){
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
+
+h4{
+    color: white;
+    font-style: italic;
+}
+
