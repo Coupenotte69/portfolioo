@@ -65,6 +65,11 @@ h3{
     text-indent: 20px;
 }
 
+h4{
+    color : white;
+    font-style : italic;
+}
+
 .h3volet1{
     color: white;
 }
@@ -199,9 +204,3 @@ ul:hover li a:not(:hover){
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
-
-h4{
-    color: white;
-    font-style: italic;
-}
-
