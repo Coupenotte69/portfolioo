@@ -57,7 +57,7 @@ p{
 }
 
 h1{
-    color: white;
+    color: rgb(245, 198, 112);
 }
 
 h3{
@@ -68,10 +68,6 @@ h3{
 h4{
     color : white;
     font-style : italic;
-}
-
-.h3volet1{
-    color: white;
 }
 
 .lien{
